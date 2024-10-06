@@ -7,9 +7,10 @@ Este projeto foi desenvolvido pela equipe, composta pelos seguintes membros:
 
 - **Joab Pereira da Silva Junior**
 - **Felipe Queiroz Pinto**
-- **Ana Bulma Targaryen**
-- **Carlos Shiryu Baratheon**
-- **Lucas Goku Martell**
+- **Anderson Victor Oliveira de Barros**
+- **João Alves**
+- **José Matheus pereira**
+
 
 Cada membro contribuiu com a implementação para os endpoints, além dos requisitos discutidos em sala de aula. Cada um desenvolveu um CRUD completo (excluindo o método PATCH), bem como os Services, Repositories e Models, anotados com @Entity.
 
