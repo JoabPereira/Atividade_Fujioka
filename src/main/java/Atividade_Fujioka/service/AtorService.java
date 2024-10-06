@@ -18,8 +18,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class FilmeService {
-
+public class AtorService {
     private final FilmeRepository filmeRepository;
 
     public List<FilmeDTO> listarTodos() {

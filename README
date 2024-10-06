@@ -1,0 +1,57 @@
+
+# Projeto API Rest
+
+## Detalhamento do Time
+
+Este projeto foi desenvolvido pela equipe, composta pelos seguintes membros:
+
+- **Joab Pereira da Silva Junior**
+- **Felipe Queiroz Pinto**
+- **Ana Bulma Targaryen**
+- **Carlos Shiryu Baratheon**
+- **Lucas Goku Martell**
+
+Cada membro contribuiu com a implementação para os endpoints, além dos requisitos discutidos em sala de aula. Cada um desenvolveu um CRUD completo (excluindo o método PATCH), bem como os Services, Repositories e Models, anotados com @Entity.
+
+### Detalhamento das Contribuições:
+
+- **Joab Pereira da Silva Junior**
+  Desenvolveu o CRUD completo para **Filme**:
+  - `GET /Filme`
+  - `POST /Filme`
+  - `PUT /Filme/{id}`
+  - `DELETE /Filme/{id}`
+  Também criou o `FilmeService`, `FilmeRepository` e o model `Filme` anotado com `@Entity`.
+
+- **Felipe Queiroz Pinto**
+  Desenvolveu o CRUD completo para **Ator**:
+  - `GET /Ator`
+  - `POST /Ator`
+  - `PUT /Ator/{id}`
+  - `DELETE /Ator/{id}`
+  Também criou o `AtorService`, `AtorRepository` e o model `Ator` anotado com `@Entity`.
+
+- **Anderson Victor Oliveira de Barros**
+  Desenvolveu o CRUD completo para **Diretor**:
+  - `GET /Diretor`
+  - `POST /Diretor`
+  - `PUT /Diretor/{id}`
+  - `DELETE /Diretor/{id}`
+  Também criou o `DiretorService`, `DiretorRepository` e o model `Diretor` anotado com `@Entity`.
+
+- **João Alves **
+  Desenvolveu o CRUD completo para **Genero**:
+  - `GET /Genero`
+  - `POST /Genero`
+  - `PUT /Genero/{id}`
+  - `DELETE /Genero/{id}`
+  Também criou o `GeneroService`, `GeneroRepository` e o model `Genero` anotado com `@Entity`.
+
+- **José Matheus pereira**
+  Desenvolveu o CRUD completo para **Produtor**:
+  - `GET /Produtor`
+  - `POST /Produtor`
+  - `PUT /Produtor/{id}`
+  - `DELETE /Produtor/{id}`
+  Também criou o `ProdutorService`, `ProdutorRepository` e o model `Produtor` anotado com `@Entity`.
+

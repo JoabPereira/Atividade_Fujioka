@@ -9,6 +9,7 @@ import Atividade_Fujioka.model.Diretor;
 import Atividade_Fujioka.model.Filme;
 import Atividade_Fujioka.model.Genero;
 import Atividade_Fujioka.repository.FilmeRepository;
+import Atividade_Fujioka.repository.GeneroRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +19,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class FilmeService {
+public class GeneroService {
 
     private final FilmeRepository filmeRepository;
 
